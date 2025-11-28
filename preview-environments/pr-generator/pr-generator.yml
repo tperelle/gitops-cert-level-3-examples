@@ -11,7 +11,7 @@ spec:
       github:
         owner: tperelle
         repo: gitops-cert-level-3-examples
-      requeueAfterSeconds: 180
+      requeueAfterSeconds: 30
   template:
     metadata:
       name: 'myapp-{{.branch}}'
